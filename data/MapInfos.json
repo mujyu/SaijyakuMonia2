@@ -23,5 +23,5 @@ null,
 {"id":21,"expanded":true,"name":"雪OPマップ","order":22,"parentId":0,"scrollX":819,"scrollY":461},
 {"id":22,"expanded":false,"name":"雪EDマップ","order":23,"parentId":21,"scrollX":819,"scrollY":461},
 {"id":23,"expanded":true,"name":"夜の雪町　ED","order":24,"parentId":21,"scrollX":1930,"scrollY":994},
-{"id":24,"expanded":false,"name":"雪EDマップ　マデュー用","order":21,"parentId":17,"scrollX":832,"scrollY":640}
+{"id":24,"expanded":false,"name":"雪EDマップ　マデュー用","order":21,"parentId":17,"scrollX":819,"scrollY":461}
 ]
