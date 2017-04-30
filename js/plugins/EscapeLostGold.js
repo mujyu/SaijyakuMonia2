@@ -1,8 +1,8 @@
 //=============================================================================
 //
-// EscapeLostGold.js
+// EscapeLostGoldMujyu.js
 //
-// Copyright (c) kotonoha*
+// Copyright (c) Mujyu
 // This software is released under the MIT License.
 // http://opensource.org/licenses/mit-license.php
 // 
@@ -27,7 +27,7 @@
  * ※改変、再配布、商用利用は自由です。
  * 
  * @param lostRate
- * @desc 戦闘フィールドに居るモンスターの所持金から計算した落とす金額の割合（1=100％）
+ * @desc 所持金から計算した落とす金額の割合（1=100％）
  * @default 0.25
  * 
  * @param lostMessage
@@ -49,7 +49,8 @@
 
 	Game_Troop.prototype.LostgoldTotal = function() {
 	    return this.aliveMembers().reduce(function(r, enemy) {
-	        return r + enemy.gold();
+	        //return r + enemy.gold();
+	        return r + $gameParty.gold();
 	    }, 0) * this.goldRate();
 	};
 
